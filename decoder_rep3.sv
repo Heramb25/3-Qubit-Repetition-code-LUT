@@ -21,7 +21,7 @@
 
 
 module decoder_rep3 (
-    input  logic [3:0] syndrome,     // example: 2 syndrome bits
+    input  logic [3:0] syndrome,     // example: 4 syndrome bits
     output logic [2:0] correction    // 3-bit correction for 3 data qubits
 );
 
